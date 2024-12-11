@@ -1,9 +1,9 @@
-Car Purchase Prediction Analysis
-Project Overview
+## Car Purchase Prediction Analysis
+### Project Overview
 This data science project investigates factors influencing car purchases using machine learning techniques. The goal is to predict whether a potential customer will purchase a car based on demographic and financial attributes.
 Dataset Description
 
-Source: Car purchase dataset
+### Source: Car purchase dataset
 Size: 1000 records
 Features:
 
@@ -14,22 +14,22 @@ Annual Salary
 
 Target Variable: Purchase (0 = No Purchase, 1 = Purchase)
 
-Data Preprocessing
+### Data Preprocessing
 
 Label encoded categorical variables
 Performed feature selection using Chi-square test
 Selected most relevant features: Age and Annual Salary
 Standardized features using StandardScaler
 
-Machine Learning Models Explored
+### Machine Learning Models Explored
 
-Logistic Regression
+#### Logistic Regression
 
 Accuracy: 86.5%
 F1 Score: 0.816
 
 
-K-Nearest Neighbors
+#### K-Nearest Neighbors
 
 Best Parameters:
 
@@ -41,7 +41,7 @@ Accuracy: 93.5%
 F1 Score: 0.915
 
 
-Random Forest Classifier
+#### Random Forest Classifier
 
 Best Parameters:
 
@@ -53,7 +53,7 @@ Accuracy: 91.5%
 F1 Score: 0.889
 
 
-XGBoost Classifier
+#### XGBoost Classifier
 
 Best Parameters:
 
@@ -65,7 +65,7 @@ Accuracy: 90.5%
 F1 Score: 0.879
 
 
-Support Vector Classifier
+#### Support Vector Classifier
 
 Best Parameters:
 
@@ -79,7 +79,7 @@ F1 Score: 0.909
 
 
 
-Key Insights
+### Key Insights
 
 K-Nearest Neighbors performed best with 93.5% accuracy
 Feature Importance:
@@ -89,14 +89,14 @@ Second Feature (likely Annual Salary): 0.213 importance
 
 
 
-Visualization Highlights
+### Visualization Highlights
 
 Gender distribution analysis
 Age distribution plot
 Salary distribution visualization
 Purchases by gender breakdown
 
-Technologies Used
+### Technologies Used
 
 Python
 Pandas
@@ -113,14 +113,14 @@ Target marketing efforts
 Predict potential car buyers
 Understand purchasing behavior correlations
 
-Future Work
+### Future Work
 
 Collect more diverse dataset
 Experiment with more advanced feature engineering
 Try ensemble methods
 Incorporate more demographic variables
 
-How to Reproduce
+### How to Reproduce
 
 Clone the repository
 Install required dependencies
